@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+body{
+    background-image: url(./Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#clock-Container{
+    position: relative;
+    margin:auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(Clock2.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    background:#2c2e32;
+    border-radius: 10px;
+    transform-origin:bottom ;
+}
+
+#hour{
+    width: 1.5%;
+    left: 48.05%;
+    height: 15%;
+    top: 34.5%;
+    opacity: 1;
+}
+#minute{
+    width: 1%;
+    left: 48.1%;
+    height: 20%;
+    top: 29%;
+    opacity: 0.75;
+}
+
+#second {
+    width: 0.5%;
+    left: 48.15%;
+    height: 22.25%;
+    top: 27.25%;
+    opacity: 0.5;
+}
+.text{
+    display: block;
+    width: 25%;
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Shojumaru', cursive;
+    color: #f9f0d6;
+    text-align: center;
+}
